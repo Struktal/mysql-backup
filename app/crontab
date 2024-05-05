@@ -8,4 +8,4 @@
 # │ │ │ │ ┌───── day of the week (0 - 6) (Sunday to Saturday)
 # │ │ │ │ │
 # * * * * * command to be executed
-* * * * * /app/backup.sh >> /backup.log
+0 */4 * * * /app/backup.sh >> /backup.log

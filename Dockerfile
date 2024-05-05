@@ -1,7 +1,7 @@
 FROM alpine:latest
 
 # Install required packages
-RUN apk --no-cache add mysql-client mariadb-connector-c-dev
+RUN apk --no-cache add tzdata mysql-client mariadb-connector-c-dev
 
 # Copy application files
 COPY ./app /app

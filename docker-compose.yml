@@ -2,7 +2,7 @@ version: "3"
 
 services:
     backup:
-        build: "."
+        image: "ghcr.io/jensostertag/mysql-backup:latest"
         restart: "always"
         environment:
             TZ: "Europe/Berlin"
